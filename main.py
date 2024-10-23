@@ -25,7 +25,7 @@ def pelicula():
     conn.close()
     return render_template("pelicula/index.html",pelicula=pelicula)
 
-#Capa
+#Capa2
 @app.route('/capas')
 def capa():
 
